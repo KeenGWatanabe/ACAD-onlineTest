@@ -2,10 +2,10 @@ let shopItemsData = [
  
   {
     id: "pdt1",
-    name: "消业宝 (超度婴灵)",
+    name: "续供",
     price: 188,
-    title: `消业宝 (超度婴灵)`,
-    desc: ``,
+    title: `本命佛基 千手观音 （鼠）`,
+    desc: `thousand hands guan yin`,
   },
   {
     id: "pdt2",
@@ -33,16 +33,16 @@ let shopItemsData = [
   },
   {
     id: "pdt5",
-    name: "开光安佛祈福法会",
-    price: 888,
+    name: "开光安佛祈福法会[1]",
+    price: 1888,
     title: `开光安佛祈福法会`,
     desc: `placment rituals`,
     img: "/images/pdt3-Sec$560.jpg",
   },
   {
     id: "pdt6",
-    name: "开光安佛祈福法会",
-    price: 888,
+    name: "开光安佛祈福法会[2]",
+    price: 2888,
     title: `开光安佛祈福法会`,
     desc: `placment rituals`,
     img: "/images/pdt3-Sec$560.jpg",

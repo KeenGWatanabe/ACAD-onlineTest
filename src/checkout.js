@@ -30,15 +30,22 @@ let generateCartItems = () => {
       <h2 style="margin-top: 100px;"  >Your Order</h2>
       <h3>
         name   <input name="name" type="text" placeholder="name" required><br>
-        email   <input name="email" type="email" placeholder="email" required><br>
-        phone<input name="phone" type="phone" placeholder="phone" required><br>
-        <p>remarks<span style="color: white;">_______________</span></p>
+        
+        
+        
+        </span>
+        </a>
+      
+        <p>remarks*<span style="color: white;">_______________</span></p>
         <textarea name="remarks" type="text" "placeholder="optional" cols="28" rows="5"></textarea><br>
         <input name="items" type="hidden" value="${itemsList}">
         <ul>${itemsList}</ul>
         amount<input name="amount" value="$ ${totalAmount}"><br></h3>
         <br>
-        <button type="submit">SUBMIT QUOTES</button></h3>
+        <button type="submit">SUBMIT QUOTES</button></h3><br>
+        <b>remarks*</b><i> to put receipt naming convention:</i> (replace text in [ ] with above data) <br>
+   Outlet-[dateFormat]-FSA123456-DavidNg-[StaffName]-$[amount]-PaymentMode<br>
+  <a style="color:blue;">e.g.Outlet7-[yyyymmdd]-FSA123456-DavidNg-[YourName]-$[${totalAmount}]-PayNow</a>
         
       
     `;
