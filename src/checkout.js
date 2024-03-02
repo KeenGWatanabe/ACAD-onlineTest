@@ -44,8 +44,8 @@ let generateCartItems = () => {
         <br>
         <button type="submit">SUBMIT QUOTES</button></h3><br>
         <b>remarks*</b><i> to put receipt naming convention:</i> (replace text in [ ] with above data) <br>
-   Outlet-[dateFormat]-FSA123456-DavidNg-[StaffName]-$[amount]-PaymentMode<br>
-  <a style="color:blue;">e.g.Outlet7-[yyyymmdd]-FSA123456-DavidNg-[YourName]-$[${totalAmount}]-PayNow</a>
+   e.g.Outlet-[dateFormat]-FSA123456-DavidNg-[StaffName]-$[amount]-PaymentMode<br>
+  <a style="color:blue;">type: Outlet7-[yyyymmdd]-FSA123456-DavidNg-[YourName]-$[${totalAmount}]-PayNow</a>
         
       
     `;
