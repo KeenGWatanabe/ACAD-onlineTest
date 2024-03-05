@@ -29,7 +29,7 @@ let generateCartItems = () => {
     label.innerHTML = `
       <h2 style="margin-top: 100px;"  >Your Order</h2>
       <h3>
-        name   <input name="name" type="text" placeholder="David Ng" required><br>
+        name   <input name="name" type="text" placeholder="Your Name" required><br>
         
         
         
